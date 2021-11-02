@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #444444;
+  font-size: 13px;
+}
+
+#videoContainer {
+  border: 2px solid #333;
+}
+
+.functionalBtnContainer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.functionalBtnContainer div {
+  float: left;
+  width: 50%;
+}
+
+.functionalBtnContainer div span {
+  text-transform: capitalize;
+}
+
+.functionalBtnContainer div button {
+  margin: 10px 15px;
+  height: 35px;
+  border: 1px solid #444444;
+  border-radius: 4px;
+  color: #444444;
+  background-color: #fff;
+}
+
+.functionalBtnContainer div button:active {
+  border: 1px solid #444444;
+  color: #fff;
+  background-color: #444;
+}
+
+.labelContainer {
+  height: 55px;
+  line-height: 55px;
+}
+
+.labelContainer label {
+  margin-left: 10px;
+}
+
+input {
+  width: 80px;
+}
